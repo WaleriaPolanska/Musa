@@ -1,0 +1,22 @@
+# virtual environments
+flygym21/
+brainvenv/
+.venv/
+__pycache__/
+*.pyc
+
+# large or generated data
+brain/data/*.feather
+brain/data/*.ngmesh
+brain/out/
+outputs/
+music/
+*.mp4
+*.wav
+*.m4a
+
+# credentials
+.env
+*.token
+
+.DS_Store
